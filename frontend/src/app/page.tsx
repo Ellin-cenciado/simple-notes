@@ -5,7 +5,6 @@ import { NotesProvider } from "@/context/NotesContext";
 export default function Home() {
   return (
     <div>
-      <h1>Hello</h1>
       <NotesProvider>
         <Notes />
         <h1>Archive</h1>
